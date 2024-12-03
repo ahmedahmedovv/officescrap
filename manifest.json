@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "URL Saver",
+  "version": "1.0",
+  "description": "Save webpage URLs to JSON file",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+} 

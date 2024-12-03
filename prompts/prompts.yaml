@@ -1,0 +1,11 @@
+article_analysis:
+  prompt: |
+    Based on this article content, provide:
+    1. A short, descriptive title (one line)
+    2. A long summary (20-25 sentences max)
+
+    Content: {content}
+
+    Format your response exactly like this:
+    Title: [your title here]
+    Summary: [your summary here] 
