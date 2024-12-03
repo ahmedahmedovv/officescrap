@@ -1,0 +1,21 @@
+
+==================================================
+Starting python 20scrap.py at 2024-12-04 00:22:49.369692
+==================================================
+Traceback (most recent call last):
+  File "/Users/mymac/Desktop/myapp/officeScrap/6/officescrap/20scrap.py", line 152, in <module>
+    scrape_and_save()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/mymac/Desktop/myapp/officeScrap/6/officescrap/20scrap.py", line 77, in scrape_and_save
+    with open('url.json', 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'url.json'
+
+==================================================
+Starting python 20scrap.py at 2024-12-04 00:22:56.765610
+==================================================
+
+Processing URL: https://zbiam.pl/finalowa-czworka-oferentow-fregat-dla-norwegii/
+New content found and saved
+
+All processing complete. Data saved to: data/scraped_content.json

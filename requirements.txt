@@ -8,8 +8,10 @@ python-dotenv==1.0.0
 Werkzeug==3.0.1
 
 # AI and Processing
-mistralai==0.0.10
-newspaper4k==0.1.0
+mistralai
+newspaper4k
 
 # File System Monitoring
 watchdog==3.0.0
+
+tenacity

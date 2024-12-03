@@ -1,0 +1,28 @@
+
+==================================================
+Starting python 10server.py at 2024-12-04 00:22:50.500347
+==================================================
+ * Serving Flask app '10server'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with watchdog (fsevents)
+ * Debugger is active!
+ * Debugger PIN: 977-535-264
+127.0.0.1 - - [04/Dec/2024 00:22:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2024 00:22:52] "GET / HTTP/1.1" 200 -
+/Users/mymac/Desktop/myapp/officeScrap/6/officescrap/10server.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'timestamp': datetime.utcnow().isoformat() + 'Z'
+127.0.0.1 - - [04/Dec/2024 00:22:56] "POST /save HTTP/1.1" 200 -
+
+==================================================
+Starting python 10server.py at 2024-12-04 00:23:06.520954
+==================================================
+ * Serving Flask app '10server'
+ * Debug mode: on
+127.0.0.1 - - [04/Dec/2024 00:23:07] "GET / HTTP/1.1" 200 -
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+On macOS, try disabling the 'AirPlay Receiver' service from System Preferences -> General -> AirDrop & Handoff.
+127.0.0.1 - - [04/Dec/2024 00:24:53] "GET / HTTP/1.1" 200 -
